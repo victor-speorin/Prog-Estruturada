@@ -6,7 +6,15 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c100b15-b27d-4095-8edb-3e558728c890" name="Changes" comment="" />
+    <list default="true" id="6c100b15-b27d-4095-8edb-3e558728c890" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Lista 0/Lista 0 exc1.c" beforeDir="false" afterPath="$PROJECT_DIR$/../Lista 0/Lista 0 exc1.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lista 0/Lista 0 exc2.c" beforeDir="false" afterPath="$PROJECT_DIR$/../Lista 0/Lista 0 exc2.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lista 0/Lista 0 exc3.c" beforeDir="false" afterPath="$PROJECT_DIR$/../Lista 0/Lista 0 exc3.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lista 1 exc1.c" beforeDir="false" afterPath="$PROJECT_DIR$/Lista 1 exc1.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lista 1 exc2.c" beforeDir="false" afterPath="$PROJECT_DIR$/Lista 1 exc2.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lista 1 exc3.c" beforeDir="false" afterPath="$PROJECT_DIR$/Lista 1 exc3.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lista 1 exc4.c" beforeDir="false" afterPath="$PROJECT_DIR$/Lista 1 exc4.c" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,9 +23,12 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2f6TADnBiDeDkNoJQr1Q6gDlhdF" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -31,7 +42,8 @@
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "last_opened_file_path": "C:/Users/victi/CLionProjects/untitled",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/victi/OneDrive/Documentos/Prog-Estruturada/Prog-Estruturada/Lista 2",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -45,6 +57,7 @@
       <option name="presentableId" value="Default" />
       <updated>1713120381808</updated>
       <workItem from="1713120382875" duration="23000" />
+      <workItem from="1713396761787" duration="193000" />
     </task>
     <servers />
   </component>

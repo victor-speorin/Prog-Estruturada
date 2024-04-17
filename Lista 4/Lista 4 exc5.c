@@ -1,3 +1,7 @@
+//Escreva uma função que dadas duas strings, retorne UM se a primeira contém a segunda,
+//ignorando maiúsculas e minúsculas, e ZERO, caso contrário. O protótipo da função é o seguinte: int
+//cic (char *str1, char *str2).
+
 #include <stdio.h>
 #include "string.h"
 void conversor (char *x){

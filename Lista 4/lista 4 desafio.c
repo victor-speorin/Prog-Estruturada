@@ -1,3 +1,8 @@
+//Escreva um programa que receba duas strings, como parâmetros de entrada, e informe
+//qual é a maior substring existente nas duas strings. Por exemplo, se as strings de entrada são
+//ACCTGAACTCCCCCC e ACCTAGGACCCCCC, então a maior substring existente entre as duas
+//strings será CCCCCC: char * maior_sub (char *str1, char *str2).
+
 #include "stdio.h"
 #include "string.h"
 #include "stdlib.h"

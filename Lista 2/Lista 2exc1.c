@@ -1,3 +1,10 @@
+//Alguns números possuem uma propriedade interessante: se você recuperar seus dois
+//primeiros dı́gitos e seus dois últimos dı́gitos e elevar ao quadrado a soma deles, você obterá a
+//concatenação desses quatro dı́gitos. Por exemplo, o número 203125 possui essa propriedade,
+//pois (20 + 25)2 = 2025. Por outro lado, o mesmo não é observado para 20326, pois (20 + 26)2
+//= 2116 != 2026  . Escreva uma função que informa se um número possui essa propriedade – int
+//teste(int n) – retornando UM se o número satisfaz a essa propriedade, e ZERO caso contrário.
+
 #include "stdio.h"
 int teste( int n){
     int doisultimos = n%100;

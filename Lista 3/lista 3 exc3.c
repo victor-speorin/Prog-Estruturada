@@ -1,3 +1,8 @@
+//Um número a é dito permutação de um número b se os dígitos de a formam uma permutação
+//dos dígitos de b. Exemplo: 5412434 é uma permutação de 4321445, mas não é uma permutação
+//de 4312455. Faça um programa que receba a e b e responda se a é permutação de b. Obs.:
+//Considere que o dígito 0 (zero) não deve aparecer nos números.
+
 #include <stdio.h>
 #include "stdlib.h"
 int comparar(const void *a, const void *b) {

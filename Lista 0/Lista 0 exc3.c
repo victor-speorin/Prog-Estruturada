@@ -1,3 +1,6 @@
+// Implemente um programa que leia “INFINITAMENTE” um número n, e retorne todos os
+//divisores dele. Esse programa pára quando n < 2.
+
 #include "stdio.h"
 int main(){
     int n;

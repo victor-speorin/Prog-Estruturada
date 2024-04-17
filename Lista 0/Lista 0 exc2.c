@@ -1,3 +1,6 @@
+//Q2) Escreva um programa que leia “INFINITAMENTE” um número n, e retorne o n-ésimo termo da
+//sequência de Fibonacci, sabendo-se que fib(0) = 1 e fib(1) = 1. Esse programa pára quando n < 0.
+
 #include "stdio.h"
 int main() {
     int x, t;

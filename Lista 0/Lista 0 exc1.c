@@ -1,3 +1,6 @@
+// Q1) Escreva um programa que leia “INFINITAMENTE” dois números x e y, e retorne o MDC entre
+//eles. Esse programa pára quando x, y ≤ 1.
+
 #include "stdio.h"
 int mdc(int a, int b) {
     while (b != 0) {
