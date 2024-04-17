@@ -1,3 +1,6 @@
+// Faça uma calculadora com mais, menos, divisão inteira, multiplicação e resto.
+// Ela é infinita até o usuário digitar uma operação 'q'
+
 #include "stdio.h"
 int main(){
     int x,y,z;

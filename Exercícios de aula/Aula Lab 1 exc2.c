@@ -1,3 +1,9 @@
+//Escreva uma função para ordenar os caracteres de uma String,
+// levando-se em consideração os seus respectivos valores na tabela ASCII.
+// Se sua string for "amoR", a resposta será "Ramo". O protótipo dessa função
+// é o que segue: void ordena(char *str). NÃO PODEMOS CRIAR VETORES
+// E STRINGS AUXILIARES PRA RESOLVER ESSA QUESTÃO!!!
+
 #include <stdio.h>
 #include "string.h"
 void ordena(char *str) {

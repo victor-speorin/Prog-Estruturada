@@ -1,3 +1,10 @@
+//Inserir o elemento (x - 1) antes e o elemento (x + 1) depois de cada ocorrência
+// de x dentro de um vetor de resposta. Se o seu vetor original é formado pelos
+// elementos {1, 3, 1, 5, 1} (com o tamanho n igual a 5), e se x for igual a 1,
+// seu vetor de resposta será {0, 1, 2, 3, 0, 1, 2, 5, 0, 1, 2}, com tamanho igual
+// a 11. O protótipo dessa função é o que segue: int* ins_antes_depois_x(int *vet,
+// int n, int x, int *tam_vet_resposta).
+
 #include <stdio.h>
 #include <stdlib.h>
 int* ins_antes_depois_x(int *vet, int n, int x, int *tam_vet_resposta){

@@ -1,3 +1,5 @@
+// Faça uma calculadora, mas agora usando o comando switch.
+
 #include "stdio.h"
 int main(){
     int x,y,z;
