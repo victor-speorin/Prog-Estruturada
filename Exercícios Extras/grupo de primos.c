@@ -49,6 +49,6 @@ int main(){
             coco = 0;
         }
     }
-    else printf("esse numero nao eh primo otario achou que ia foder meu codigo");
+    else printf("esse numero nao eh primo");
     return 0;
 }
