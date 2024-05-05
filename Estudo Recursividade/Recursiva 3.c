@@ -1,3 +1,4 @@
+// recursiva que inverta o vetor
 #include "stdio.h"
 void rec(int *vet,int ini, int n){
     if (ini>=n) return;

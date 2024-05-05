@@ -1,3 +1,4 @@
+// insira um numero n e retorne o somatorio de todos os numeros até n
 #include "stdio.h"
 int rec(int x){
     if (x==1) return 1;

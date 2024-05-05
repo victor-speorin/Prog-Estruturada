@@ -1,3 +1,4 @@
+// funçao recursiva que retorna a soma dos elementos de um vetor
 #include <stdio.h>
 float rec(float *vet, int n) {
     if (n == 1) return vet[0];

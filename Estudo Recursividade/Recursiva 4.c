@@ -1,3 +1,4 @@
+// função recursiva que retorne a quantidade de vezes que um numero n aparece num numero k
 #include "stdio.h"
 int rec(int n, int k){
     if (k<1) return 0;

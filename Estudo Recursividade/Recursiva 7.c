@@ -1,3 +1,4 @@
+// MDC de dois numeros
 #include "stdio.h"
 int rec(int x, int y){
     if (x==y) return x;

@@ -1,3 +1,4 @@
+// faça uma recursiva de potencia
 #include "stdio.h"
 int rec(int base,int n){
     if (n==0) return 1;

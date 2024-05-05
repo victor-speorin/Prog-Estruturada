@@ -1,3 +1,4 @@
+// recursiva que transforme um numero natural em um binario
 #include "stdio.h"
 void rec(int n){
     if (n==0) return;

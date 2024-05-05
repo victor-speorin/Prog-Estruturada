@@ -1,3 +1,4 @@
+// fibonacci
 #include "stdio.h"
 int rec(int x){
     if (x==0) return 0;
@@ -5,7 +6,7 @@ int rec(int x){
     return rec(x-1) + rec(x-2);
 }
 int main(){
-    int x,y;
+    int x;
     scanf("%d", &x);
     int z = rec(x);
     printf("%d", z);
