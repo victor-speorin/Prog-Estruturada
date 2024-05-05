@@ -1,3 +1,9 @@
+//Considere duas matrizes de inteiros de dimensões m1xn1 e m2xn2, onde m1 e n1
+//representam, respectivamente, o número de linhas e o número de colunas da primeira matriz, e
+//m2 e n2 representam, respectivamente, o número de linhas e o número de colunas da segunda
+//matriz. Escreva uma função que realize a multiplicação destas duas matrizes sem alterar nem a
+//primeira e nem a segunda matriz: int** mult (int m1, int n1, int **mat1, int m2, int n2, int
+//**mat2)
 #include "stdio.h"
 #include "stdlib.h"
 void libera(int **mat, int lin) {

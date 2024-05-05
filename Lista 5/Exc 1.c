@@ -1,3 +1,7 @@
+//Dada uma matriz quadrada de dimensão 9, com valores de 1 a 9 em suas posições, escreva
+//um programa que verifique se esta matriz é uma solução válida para o Sudoku (isto é, uma
+//solução é válida no Sudoku se cada linha, cada coluna e cada bloco contém os números de 1 a 9
+//somente uma vez).
 #include <stdio.h>
 #include <stdlib.h>
 void libera(int **mat, int lin) {
