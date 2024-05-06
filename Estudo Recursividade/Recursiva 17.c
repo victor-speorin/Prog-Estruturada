@@ -8,7 +8,7 @@ superfatorial desse número
 #include "stdio.h"
 int fat(int n){
     if (n==1) return 1;
-    return fat(n-1)*n;
+    return fat(n-1) * n;
 }
 int rec(int n){
     if (n==1) return 1;

@@ -6,7 +6,7 @@ int exp(int base,int n){
 }
 int rec(int n){
     if (n==1) return 1;
-    return exp(n, exp(n - 1, n - 2));
+    return exp(n, rec(n-1));
 }
 int main(){
     int n; scanf("%d", &n);
