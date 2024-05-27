@@ -22,8 +22,8 @@ typedef struct aluno{
 
 void imprime (TALUNO **mat, int n){
     for (int i=0;i<n;i++){
-        if (((mat[i]->p1 + mat[i]->p2) / 2) >= 6.0) printf("%s da turma %s esta aprovado com media %.1f\n", mat[i]->nome, mat[i]->turma, ((mat[i]->p1 + mat[i]->p2) / 2));
-        else printf("%s da turma %s esta reprovado com media %.1f\n", mat[i]->nome, mat[i]->turma, ((mat[i]->p1 + mat[i]->p2) / 2));
+        if (((mat[i]->p1 + mat[i]->p2) / 2) >= 6.0) printf("%s da turma %s esta aprovado(a) com media %.1f\n", mat[i]->nome, mat[i]->turma, ((mat[i]->p1 + mat[i]->p2) / 2));
+        else printf("%s da turma %s esta reprovado(a) com media %.1f\n", mat[i]->nome, mat[i]->turma, ((mat[i]->p1 + mat[i]->p2) / 2));
     }
 }
 
