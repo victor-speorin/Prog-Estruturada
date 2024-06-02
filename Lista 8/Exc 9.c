@@ -8,7 +8,7 @@ l1, TLSE* l2).
 TLSE* junta_listas (TLSE* l1, TLSE* l2){
     TLSE *p1 = l1;
     for (;p1->prox ;p1=p1->prox);
-    p1->prox=l2;
+    p1->prox=l2; // só faço o ponteiro final de l1 apontar pra l2
     return l1;
 }
 int main(){

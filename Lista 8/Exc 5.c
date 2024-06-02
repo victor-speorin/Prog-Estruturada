@@ -8,7 +8,7 @@ TLSE* rto (TLSE* l, int elem){
     TLSE *p = l;
     int tam=0;
     for (; p; p = p->prox) tam++; // tamanho
-    for (int i=0;i<tam;i++){
+    for (int i=0;i<tam;i++){ // faço "tamanho" verificações e vou retirando o elemento
         l = TLSE_retira(l,elem);
     }
     return l;

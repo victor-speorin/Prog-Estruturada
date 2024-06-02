@@ -17,7 +17,7 @@ int Contrario (TLSE *l1, TLSE *l2){
         for (int j=0;j<tam2-1;j++){
             p2 = p2->prox;
         }
-        if (p2->info!=p1->info) return 0;
+        if (p2->info!=p1->info) return 0; // vou fazendo as verificações do primeiro de l1 com ultimo de l2 e etc
         p1=p1->prox;
         p2=l2;
         tam2--;

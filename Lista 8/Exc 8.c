@@ -12,13 +12,13 @@ int igual (TLSE *l1, TLSE *l2) {
     for (; p1; p1 = p1->prox) tam1++;
     for (; p2; p2 = p2->prox) tam2++;
     p1=l1,p2=l2;
-    if (tam1!=tam2) return 0;
+    if (tam1!=tam2) return 0; // se os tamanhos forem diferentes ja retorno
     for (int i=0;i<tam1;i++){
-        if (p1->info!=p2->info) return 0;
+        if (p1->info!=p2->info) return 0; // se achar um diferente ja retorna
         p1=p1->prox;
         p2=p2->prox;
     }
-    return 1;
+    return 1; // tudo deu certo eh igual
 }
 int main(){
     TLSE *l1 = TLSE_inicializa();

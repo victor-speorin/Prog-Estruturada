@@ -4,6 +4,23 @@ TLSE* TLSE_inicializa(void){
   return NULL;
 }
 
+TLSE* desloca_esq (TLSE* l){
+    TLSE *p =l;
+    for (;p && p->prox; p = p->prox) p->info = p->prox->info; // o atual recebe o proximo
+    return l;
+}
+
+TLSE* TLSE_ins_fim(TLSE *l, int info){
+    TLSE *novo = (TLSE*)malloc(sizeof(TLSE));
+    novo->info = info;
+    novo->prox = NULL;
+    if(!l) return novo;
+    TLSE *p = l;
+    while(p->prox) p = p->prox;
+    p->prox = novo;
+    return l;
+}
+
 TLSE* TLSE_ins_ini(TLSE *l, int elem){
   TLSE *novo = (TLSE *) malloc(sizeof(TLSE));
   novo->prox = l;

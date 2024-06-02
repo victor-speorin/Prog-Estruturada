@@ -4,35 +4,28 @@ seguinte: void i_p (TLSE *l).
 */
 #include "stdio.h"
 #include "TLSE.c"
-void i_p (TLSE *l){
+TLSE* desloca (TLSE* l){
     TLSE *p =l;
-    int tam = 0,pr=0,ip=0;
-    for (; p; p = p->prox) { // encontro o tamanho da lse e o numero de impares e pares
-        tam++;
-        if (p->info%2==0) pr++;
-        else ip ++;
+    for (;p && p->prox; p = p->prox) p->info = p->prox->info; // o atual recebe o proximo
+    return l;
+}
+void i_p (TLSE *l){
+    TLSE *p =l, *pf = l;
+    int t=1;
+    while (pf->prox){ // descubro o tamanho o coloco um ponteiro no final
+        pf=pf->prox;
+        t++;
     }
-    p=l;
-    int vet[tam], x=0;
-    for (int i=0;i<tam;i++){
-        if (p->info%2!=0) {
-            vet[x] = p->info; // crio um vetor que vai me auxiliar e coloco primeiro os impares nele
-            x++;
+    while (t){
+        if (p->info%2==0){ // quando acho um par, coloco ele no final e desloco todos pra esq
+            int x = p->info;
+            p = desloca(p); // desloco a partir do p somente
+            pf->info = x;
+            t--;
+        } else { // nao acha um par só avança
+            t--;
+            p=p->prox;
         }
-        p=p->prox;
-    }
-    p=l;
-    for (int i=0;i<tam;i++) {
-        if (p->info % 2 == 0) {
-            vet[ip] = p->info; // agora coloco os pares no vetor
-            ip++;
-        }
-        p = p->prox;
-    }
-    p=l;
-    for (int i=0;i<tam;i++){
-        p->info = vet[i]; // agora é só colocar o vetor indice a indice na lse
-        p=p->prox;
     }
 }
 int main(){
@@ -50,6 +43,7 @@ int main(){
     printf("lista resposta:\n");
     printf("\n");
     TLSE_imp_rec(l);
+    printf("\n");
     TLSE_lib_rec(l);
     return 0;
 }
