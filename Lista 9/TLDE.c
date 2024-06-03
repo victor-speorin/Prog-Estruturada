@@ -1,12 +1,12 @@
 #include "TLDE.h"
 
-TLDE* TLDE_insere(TLDE *l, int elem){
-  TLDE *novo = (TLDE *) malloc(sizeof(TLDE));
-  novo->ant = NULL;
-  novo->prox = l;
-  novo->info = elem;
-  if(l) l->ant = novo;
-  return novo;
+TLDE* TLDE_insere(TLDE *l, int elem) {
+    TLDE *novo = (TLDE *) malloc(sizeof(TLDE));
+    novo->ant = NULL;
+    novo->prox = l;
+    novo->info = elem;
+    if (l) l->ant = novo;
+    return novo;
 }
 
 void TLDE_imprime(TLDE *l){
@@ -15,6 +15,16 @@ void TLDE_imprime(TLDE *l){
     printf("%d ", p->info);
     p = p->prox;
   } 
+}
+
+TLDE* copia(TLDE *l){
+    TLDE *lr = NULL, *p=l;
+    while (p->prox) p=p->prox;
+    while(p){
+        lr = TLDE_insere(lr,p->info);
+        p=p->ant;
+    }
+    return lr;
 }
 
 void TLDE_libera(TLDE *l){
