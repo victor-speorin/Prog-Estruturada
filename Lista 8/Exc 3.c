@@ -11,7 +11,7 @@ TLSE* desloca (TLSE* l, int n){
     TLSE *p =l;
     if (n%2==0){
         int pri = p->info; // salvando o primeiro
-        for (;p && p->prox; p = p->prox){
+        for (;p->prox; p = p->prox){
             p->info = p->prox->info; // o atual recebe o proximo
         }
         p->info = pri; // colocando o primeiro no final (depois das interações p esta no final da lista)

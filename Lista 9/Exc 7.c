@@ -30,7 +30,7 @@ void i_p (TLDE *l){
     }
 }
 
-int main(void){
+int main(){
     TLDE *l = NULL;
     int x;
     do{

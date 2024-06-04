@@ -6,7 +6,7 @@ seguinte: void i_p (TLSE *l).
 #include "TLSE.c"
 TLSE* desloca (TLSE* l){
     TLSE *p =l;
-    for (;p && p->prox; p = p->prox) p->info = p->prox->info; // o atual recebe o proximo
+    for (; p->prox; p = p->prox) p->info = p->prox->info; // o atual recebe o proximo
     return l;
 }
 void i_p (TLSE *l){
@@ -28,6 +28,7 @@ void i_p (TLSE *l){
         }
     }
 }
+
 int main(){
     TLSE *l = TLSE_inicializa();
     int x;
