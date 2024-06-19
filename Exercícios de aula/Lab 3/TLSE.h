@@ -19,3 +19,4 @@ void TLSE_lib_rec(TLSE *l);
 TLSE* TLSE_busca_rec(TLSE *l, int elem);
 TLSE* TLSE_retira_rec(TLSE *l, int elem);
 
+TLSE* TLSE_copia(TLSE *l);

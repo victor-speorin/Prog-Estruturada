@@ -1,6 +1,7 @@
 /*
 A questão passava um arquivo de entrada e um vetor preenchido com as palavras que aparecem no arquivo,
-e pedia que ordenassemos o vetor conforme o numero de vezes que cada palavra aparecia no arquivo.
+e pedia que ordenassemos o vetor conforme o numero de vezes que cada palavra aparecia no arquivo, e caso
+duas ou mais palavras aparecessem o mesmo numero de vezes, essas seriam ordenadas em ordem alfabetica.
 */
 
 #include "stdio.h"
