@@ -7,12 +7,8 @@ entrada. A função deve obedecer o seguinte protótipo: TFila* inv_fila (TFila 
 TF* inv_fila (TF *f){
     TF *fresp = TF_inicializa();
     TP *paux = TP_inicializa();
-    while (!TF_vazia(f)){
-        TP_push(paux, TF_retira(f));
-    }
-    while (!TP_vazia(paux)){
-        TF_insere(fresp, TP_pop(paux));
-    }
+    while (!TF_vazia(f)) TP_push(paux, TF_retira(f));
+    while (!TP_vazia(paux)) TF_insere(fresp, TP_pop(paux));
     TP_libera(paux);
     return fresp;
 }

@@ -8,12 +8,8 @@ de entrada. A função deve obedecer o seguinte protótipo: TPilha* f2p (TFila *
 
 TP* f2p (TF *f){
     TP *paux = TP_inicializa(), *presp = TP_inicializa();
-    while (!TF_vazia(f)){
-        TP_push(paux, TF_retira(f));
-    }
-    while (!TP_vazia(paux)){
-        TP_push(presp, TP_pop(paux));
-    }
+    while (!TF_vazia(f)) TP_push(paux, TF_retira(f));
+    while (!TP_vazia(paux)) TP_push(presp, TP_pop(paux));
     TP_libera(paux);
     return presp;
 }
