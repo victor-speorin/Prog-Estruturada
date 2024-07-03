@@ -58,10 +58,10 @@ TP *retira_k(TP **vet,int k, int n){
     // ordenei
     qsort(vet_ord,n,sizeof(TP*),compara);
     // achando o k-esimo
-    TP *resp = vet_ord[k];
+    TP *resp;
     for (int i=0;i<n;i++){
-        if (vet[i]==vet_ord[k]){
-            vet[i] = NULL;
+        if (vet[i]->insc == vet_ord[k-1]-> insc){
+            resp = vet[i];
             break;
         }
     }
@@ -81,11 +81,6 @@ TP *retira_k(TP **vet,int k, int n){
         free(vet_ord[i]);
     }
     free(vet_ord);
-
-    // só conferindo
-    printf("%s",resp->nome);
-    printf("%s",resp->data_nasc);
-    printf("%d",resp->insc);
 
     return resp;
 

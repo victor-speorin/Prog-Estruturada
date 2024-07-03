@@ -10,9 +10,7 @@ TP *merge(TP **vetp, int n) {
     for(int i = 0; i < n; i++){
         vetcopia[i] = TP_inicializa();
         TP *paux = TP_inicializa();
-        while (!TP_vazia(vetp[i])){
-            TP_push(paux, TP_pop(vetp[i]));
-        }
+        while (!TP_vazia(vetp[i])) TP_push(paux, TP_pop(vetp[i]));
         while (!TP_vazia(paux)){
             int x = TP_pop(paux);
             TP_push(vetp[i],x);
