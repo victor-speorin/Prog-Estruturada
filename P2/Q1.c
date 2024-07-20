@@ -5,6 +5,7 @@ se fossem impares elementos, a lista original ficaria com um a mais.
 */
 #include "TLDE.c"
 TLDE *f(TLDE *l){
+    if (!l) return NULL; // adicionei apenas isso
     TLDE *rapido = l, *meio = l;
     if (!l->prox) return meio;
     while (rapido){
