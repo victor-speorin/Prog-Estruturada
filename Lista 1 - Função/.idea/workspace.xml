@@ -6,15 +6,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c100b15-b27d-4095-8edb-3e558728c890" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Lista 0/Lista 0 exc1.c" beforeDir="false" afterPath="$PROJECT_DIR$/../Lista 0/Lista 0 exc1.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lista 0/Lista 0 exc2.c" beforeDir="false" afterPath="$PROJECT_DIR$/../Lista 0/Lista 0 exc2.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lista 0/Lista 0 exc3.c" beforeDir="false" afterPath="$PROJECT_DIR$/../Lista 0/Lista 0 exc3.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lista 1 exc1.c" beforeDir="false" afterPath="$PROJECT_DIR$/Lista 1 exc1.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lista 1 exc2.c" beforeDir="false" afterPath="$PROJECT_DIR$/Lista 1 exc2.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lista 1 exc3.c" beforeDir="false" afterPath="$PROJECT_DIR$/Lista 1 exc3.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lista 1 exc4.c" beforeDir="false" afterPath="$PROJECT_DIR$/Lista 1 exc4.c" afterDir="false" />
-    </list>
+    <list default="true" id="6c100b15-b27d-4095-8edb-3e558728c890" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,7 +35,7 @@
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/victi/OneDrive/Documentos/Prog-Estruturada/Prog-Estruturada/Lista 2",
+    "last_opened_file_path": "C:/Users/victi/OneDrive/Documentos/Estrutura de Dados",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -58,6 +50,7 @@
       <updated>1713120381808</updated>
       <workItem from="1713120382875" duration="23000" />
       <workItem from="1713396761787" duration="193000" />
+      <workItem from="1727980079368" duration="116000" />
     </task>
     <servers />
   </component>
